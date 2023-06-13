@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/react-testing",
+	"version": "0.1.0",
+	"title": "React Testing",
+	"category": "widgets",
+	"icon": "games",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"text": {
+			"type" : "string",
+			"source": "html",
+			"selector": "h4"
+		}
+	},
+	"textdomain": "react-testing",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
