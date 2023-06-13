@@ -18,5 +18,8 @@
 		"@wordpress/eslint-plugin": "^14.8.0",
 		"@wordpress/scripts": "^26.6.0",
 		"prettier": "npm:wp-prettier@^2.8.5"
+	},
+	"dependencies": {
+		"@wordpress/components": "^25.1.0"
 	}
 }
