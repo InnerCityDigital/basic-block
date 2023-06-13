@@ -19,7 +19,20 @@
 		"alignment": {
 			"type": "string",
 			"default": "left"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "transparent"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"panelRandom": {
+			"type": "boolean",
+			"default": false
 		}
+
 	},
 	"textdomain": "react-testing",
 	"editorScript": "file:./index.js",
