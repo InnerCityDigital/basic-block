@@ -1,12 +1,18 @@
-/**
- * The following styles get applied both on the front of your site
- * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
- */
-
 .wp-block-create-block-react-testing {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    box-shadow: 1px 1px 15px #0000001c;
+    border-radius: 4px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;;
 }
